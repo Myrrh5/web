@@ -35,36 +35,27 @@ const sr = ScrollReveal({
 
 /*SCROLL HOME*/
 sr.reveal('.home__title',{}); 
-sr.reveal('.button',{delay: 200}); 
 sr.reveal('.home__img',{delay: 400}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
+
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img',{}); 
 sr.reveal('.about__subtitle',{delay: 400}); 
 sr.reveal('.about__text',{delay: 400}); 
 
-/*SCROLL EDUCA*/
-sr.reveal('.profile__subtitle',{delay:400}); 
-sr.reveal('.profile__text',{delay:400}); 
-sr.reveal('.profile__data',{interval: 200}); 
-sr.reveal('.profile__img',{});
-
-/*SCROLL EDUCATION*/
-sr.reveal('.edu__img',{interval: 200});
+/*SCROLL DATA*/
+sr.reveal('.data__img',{interval: 200});
+sr.reveal('.data__subtitle',{delay: 400});
+sr.reveal('.data__text',{delay: 400});
 
 
 
-/*SCROLL EDITORIAL*/
-sr.reveal('.editorial__img',{});
-sr.reveal('.editorial__subtitle',{delay:400});
-sr.reveal('.editorial__text',{delay:400});
 
-/*SCROLL VIDEO*/
-sr.reveal('.video__items',{});
-/*CREDIT*/
-sr.reveal('.credit__img',{});
-sr.reveal('.credit__text',{delay:400});
+
+
+
+
+
 
 
 
